@@ -18,7 +18,7 @@ public class Registry extends Vehicle { // Subclass
             count++;
         } else {
             System.out.println("Registret er fuldt. Kan ikke tilføje flere køretøjer");
-            System.exit(count);
+            System.exit(0);
         }
     }
 

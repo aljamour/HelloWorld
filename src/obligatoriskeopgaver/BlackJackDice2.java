@@ -1,4 +1,4 @@
-package ObligatoriskeOpgaver;
+package obligatoriskeopgaver;
 import java.util.Scanner;
 import java.util.Random;
 

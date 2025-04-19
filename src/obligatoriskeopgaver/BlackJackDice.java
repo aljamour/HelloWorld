@@ -1,4 +1,4 @@
-package ObligatoriskeOpgaver;
+package obligatoriskeopgaver;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -13,15 +13,17 @@ public class BlackJackDice {
         System.out.println("Indtast 's' for at starte");
 
         String userInput = scanner.nextLine(); //input fra brugeren
-
+        
         if (!userInput.equals("s")) { // alle andre input end "s" vil ikek lade spillet starte og programmet stopper
             System.out.println("Spillet startede ikke");
             return;
         }
 
+
         // Brugeren spiller
         int userScore = random.nextInt(6) + 1 + random.nextInt(6) + 1; // to terninger
         System.out.println("Du slog: " + userScore);
+
 
         while (true) { // while-loopet er true, så loopet vil altid køre. Hvis det er falsk, kører det aldri.
             if (userScore == 21) {

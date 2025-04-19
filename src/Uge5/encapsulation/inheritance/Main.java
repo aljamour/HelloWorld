@@ -32,5 +32,8 @@ public class Main {
         System.out.println("\nMotorcykel 1\n" + bike);
         System.out.println("\nMotorcykel 2\n" + bike2);
         System.out.println("\nMotorcykel 3\n" + bike3);
+
+        car.drive(5);
     }
+
 }
